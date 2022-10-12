@@ -1,0 +1,62 @@
+body
+{   display: flex 1;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  
+  main {
+    display: flex;
+    flex: 1;
+  }
+  
+  article {
+    flex: 0 0 1em;
+  }
+  
+  nav,
+  aside {
+    /* 12em is the width of the side columns */
+    flex: 0 0 1em;
+  }
+  
+  /* Add Colors and spacing to make it look like the picture */
+  body {
+    font-size: x-large;
+    font-style: var(#ABE32B);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 10;
+    margin: 10;
+  }
+  header,
+  nav,
+  article,
+  aside,
+  footer {
+    padding: 1px;
+  }
+  header {
+    background-color: #ff8200;
+  }
+  nav {
+    font-size: xx-large;
+    font-style: oblique;
+    background-color: #7fc78e;
+  }
+  article {
+    font-size: larger;
+    font-style: calc();
+    background-color: #aff476;
+  }
+  aside {
+    font-size: larger;
+    font-style: italic;
+    background-color: #8ba2ff;
+  }
+  footer {
+    font-size: large;
+    font-style: italic;
+    background-color: #aff476;
+  color: #000000;
+  }
+  
+  
